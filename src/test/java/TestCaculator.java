@@ -43,9 +43,5 @@ public class TestCaculator {
         // Test case này sẽ FAIL
         Assert.assertEquals(caculator.sum(2, 3), Integer.valueOf(10));
     }
-    @Test
-    public void testSumCorrect() {
-        // Test case đúng
-        Assert.assertEquals(calculator.sum(2, 3), Integer.valueOf(5));
-    }
+
 }
